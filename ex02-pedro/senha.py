@@ -1,8 +1,10 @@
 
 senha = 'soueu123'
 
-print('Digite sua senha:')
+password = str(input('Digite sua senha:'))
 
-if senha != 'soueu123':
+if senha != password:
     print('senha inválida')
+else:
+    print('senha válida')
 
