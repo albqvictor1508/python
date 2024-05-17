@@ -1,12 +1,6 @@
-numbers = []
-
-for i in range(1,11):
-    n = float(input(f"Digite o {i} número:\n"))
-    numbers.append(n)
-else:
-    print(numbers)
-
-for n in numbers:
-    dobro = n * 2
-    triplo = n * 3
-print(f"\nNúmero: {n}, Dobro: {dobro}, Triplo: {triplo}")
+for num in range(0,10):
+  num = int(input('Digite um número: '))
+  dobro = num * 2
+  triplo = num * 3
+  print(dobro)
+  print(triplo)
